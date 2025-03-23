@@ -1,7 +1,5 @@
 "use client";
-import { ArrowRight, Github } from "lucide-react";
 import { BACKGROUND_OPTIONS } from "@/components/background";
-import { Button } from "@/components/ui/button";
 import Playground from "@/components/playground";
 import { useState } from "react";
 
@@ -9,10 +7,10 @@ export default function Home() {
   const [preview, setPreview] = useState<null | React.ReactNode>(null);
   const [theme, setTheme] = useState<"light" | "dark">("light");
 
-  const resetBg = () => {
-    setPreview(null);
-    setTheme("light");
-  };
+  // const resetBg = () => {
+  //   setPreview(null);
+  //   setTheme("light");
+  // };
 
   return (
     <div className={theme}>
