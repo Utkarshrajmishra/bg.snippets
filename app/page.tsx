@@ -1,5 +1,5 @@
 'use client';
-import { ArrowRight, Github, Linkedin } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
 import { Toaster } from 'sonner';
